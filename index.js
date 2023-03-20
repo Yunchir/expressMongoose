@@ -19,6 +19,22 @@ db.once("open", () => {
     });
 });
 
+// const res = cloudinary.uploader.upload(
+//   "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+//   {
+//     public_id: "olympic_flag",
+//   }
+// );
+
+// res
+//   .then((data) => {
+//     console.log(data);
+//     console.log(data.secure_url);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
 app.listen(port, () => {
   console.log("server runing", port);
 });
